@@ -141,6 +141,39 @@
           }
         }
       ]
+    },
+    {
+      "stamp_card_id": "armada_logics_cafe_challenge",
+      "display_name": "Armada Logics Cafe Challenge",
+      "description": "Complete this card for a free drink while stocks last.",
+      "card_type": "SPONSORED",
+      "progress_mode": "SINCE_CARD_START",
+      "sponsor_id": "armada_logics",
+      "completion_reward_ids": [
+        "coins:250"
+      ],
+      "unlock_code_hash": "cfa75aa4747dd26d4650429eb04820c6a31f0a777d9a76d2dbd6aef33ee55b85",
+      "min_game_version_code": 400,
+      "starts_at_unix": 0,
+      "ends_at_unix": 0,
+      "stamps": [
+        {
+          "stamp_id": "armada_logics_cafe_challenge_serve_010",
+          "display_name": "Customer Blitz",
+          "description": "Serve 236 customers.",
+          "requirement_group": {
+            "match_mode": "ALL",
+            "requirements": [
+              {
+                "type": "CUSTOMERS_SERVED",
+                "config": {
+                  "required_customers": 236
+                }
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }
