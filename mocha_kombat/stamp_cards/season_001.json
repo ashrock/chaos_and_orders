@@ -153,7 +153,6 @@
         "coins:250"
       ],
       "unlock_code_hash": "cfa75aa4747dd26d4650429eb04820c6a31f0a777d9a76d2dbd6aef33ee55b85",
-      "min_game_version_code": 400,
       "starts_at_unix": 0,
       "ends_at_unix": 0,
       "stamps": [
