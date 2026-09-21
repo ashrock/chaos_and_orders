@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalog_version": 4,
+  "catalog_version": 7,
   "stamp_cards": [
     {
       "stamp_card_id": "beginner_barista_01",
@@ -68,14 +68,14 @@
         {
           "stamp_id": "beginner_barista_01__serve_025",
           "display_name": "Rush Hour Rookie",
-          "description": "Serve 25 customers.",
+          "description": "Serve 150 customers.",
           "requirement_group": {
             "match_mode": "ALL",
             "requirements": [
               {
                 "type": "CUSTOMERS_SERVED",
                 "config": {
-                  "required_customers": 25
+                  "required_customers": 150
                 }
               }
             ]
@@ -112,7 +112,7 @@
         {
           "stamp_id": "beginner_barista_01__cleanup_010",
           "display_name": "Tidy Cafe",
-          "description": "Clean 10 Junk and/or Pests.",
+          "description": "Clean 50 Junk and/or Pests.",
           "requirement_group": {
             "match_mode": "ALL",
             "requirements": [
@@ -123,7 +123,7 @@
                     "junk",
                     "pest"
                   ],
-                  "required_cleanup": 10
+                  "required_cleanup": 50
                 }
               }
             ]
@@ -163,21 +163,20 @@
       "completion_reward_ids": [
         "coins:2500"
       ],
-      "unlock_code_hash": "189218c0a581ad4d8b6099081b6236962971a11492c2ba568c722a2b07d7e1ec",
       "starts_at_unix": 0,
       "ends_at_unix": 0,
       "stamps": [
         {
           "stamp_id": "armada_logics_cafe_challenge_serve_010",
           "display_name": "Customer Blitz",
-          "description": "Serve 236 customers.",
+          "description": "Serve 457 customers.",
           "requirement_group": {
             "match_mode": "ALL",
             "requirements": [
               {
                 "type": "CUSTOMERS_SERVED",
                 "config": {
-                  "required_customers": 236
+                  "required_customers": 457
                 }
               }
             ]
@@ -185,7 +184,8 @@
         }
       ],
       "image_path": "images/armada_logo.png",
-      "image_sha256": "a70ea363ac7a9008e71ac3434beb9fb0f574d4843da5730213bbd5f456077d29"
+      "image_sha256": "a70ea363ac7a9008e71ac3434beb9fb0f574d4843da5730213bbd5f456077d29",
+      "unlock_code_hash": "189218c0a581ad4d8b6099081b6236962971a11492c2ba568c722a2b07d7e1ec"
     }
   ]
 }
