@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalog_version": 1,
+  "catalog_version": 4,
   "stamp_cards": [
     {
       "stamp_card_id": "beginner_barista_01",
@@ -8,7 +8,6 @@
       "description": "Learn the ropes and earn your first stamps.",
       "card_type": "PERMANENT",
       "progress_mode": "LIFETIME",
-      "completion_reward_id": "coins:500",
       "min_game_version_code": 0,
       "max_game_version_code": 0,
       "stamps": [
@@ -49,7 +48,7 @@
           "display_name": "Scenario Mastery",
           "description": "Complete 3 scenarios, or reach SSS Combo Rank.",
           "requirement_group": {
-            "match_mode": "ANY",
+            "match_mode": "ALL",
             "requirements": [
               {
                 "type": "SCENARIO_COMPLETED",
@@ -87,19 +86,23 @@
           "display_name": "Combo Barista",
           "description": "Perform 5 Double Multiserves, or 2 Triple Multiserves.",
           "requirement_group": {
-            "match_mode": "ANY",
+            "match_mode": "ALL",
             "requirements": [
               {
                 "type": "MULTISERVE_PERFORMED",
                 "config": {
-                  "accepted_tiers": ["DOUBLE"],
+                  "accepted_tiers": [
+                    "DOUBLE"
+                  ],
                   "required_count": 5
                 }
               },
               {
                 "type": "MULTISERVE_PERFORMED",
                 "config": {
-                  "accepted_tiers": ["TRIPLE"],
+                  "accepted_tiers": [
+                    "TRIPLE"
+                  ],
                   "required_count": 2
                 }
               }
@@ -116,7 +119,10 @@
               {
                 "type": "CLEANUP",
                 "config": {
-                  "accepted_types": ["junk", "pest"],
+                  "accepted_types": [
+                    "junk",
+                    "pest"
+                  ],
                   "required_cleanup": 10
                 }
               }
@@ -140,7 +146,12 @@
             ]
           }
         }
-      ]
+      ],
+      "completion_reward_ids": [
+        "coins:500"
+      ],
+      "image_path": "images/chandor_logo_alpha.png",
+      "image_sha256": "14848aba88b3d56c8500a143d691e0604a290c557ad6196366bfc2c76645bbd2"
     },
     {
       "stamp_card_id": "armada_logics_cafe_challenge",
@@ -150,9 +161,9 @@
       "progress_mode": "SINCE_CARD_START",
       "sponsor_id": "armada_logics",
       "completion_reward_ids": [
-        "coins:250"
+        "coins:2500"
       ],
-      "unlock_code_hash": "17486eb5870f07f8650307b788c835b7187a74b280e7d4120bac96d1381d7642",
+      "unlock_code_hash": "189218c0a581ad4d8b6099081b6236962971a11492c2ba568c722a2b07d7e1ec",
       "starts_at_unix": 0,
       "ends_at_unix": 0,
       "stamps": [
@@ -172,7 +183,9 @@
             ]
           }
         }
-      ]
+      ],
+      "image_path": "images/armada_logo.png",
+      "image_sha256": "a70ea363ac7a9008e71ac3434beb9fb0f574d4843da5730213bbd5f456077d29"
     }
   ]
 }
